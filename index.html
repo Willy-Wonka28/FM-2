@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons8-sun-480.png">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <title>Sunnyside Agency</title>
+
+</head>
+<body>
+
+  <!-- preloader -->
+  <div class="preload">
+    <div class="sun"></div>
+  </div>
+
+
+  <section id = "hero" class="text-white p-7 w-full h-[700px] lg:h-[1240px] bg-no-repeat bg-cover bg-center bg-[url('images/desktop/image-header.jpg')]">
+  <header class="flex justify-between items-center">
+  <h2 class="text-2xl font-bold">sunnyside</h2>
+  <nav class="hidden lg:flex justify-around items-center w-[40%]">
+  <div>About</div>
+  <div>Services</div>
+  <div>Projects</div>
+  <button class="text-black w-[125px] h-[35px] bg-white border-2 border-white rounded-lg">Contact</button>
+  </nav>
+  <div class="lg:hidden">
+    <img id = "menu" src="images/icon-hamburger.svg" class="" alt="menu">
+    <img id = "cancel" src="images/wrong-delete-remove-trash-svgrepo-com.svg" class="hidden" alt="cancel_menu">
+
+
+  <!-- hamburger menu for responsive-->
+   <section id = "hidden_menu" class="hidden absolute w-[400px] h-[450px] bg-white text-black flex flex-col justify-center items-center px-5 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  rounded-lg">
+    <ul class="flex flex-col w-full h-[75%] text-lg justify-around items-center">
+      <li>About
+        <li class="mt-[-20px]">.</li>
+      </li>
+      <li>Services
+        <li class="mt-[-20px]">.</li>
+      </li>
+      <li>Projects
+        <li class="mt-[-20px]">.</li>
+      </li>
+      <li>Contacts
+        <li class="mt-[-20px]">.</li>
+      </li>
+    </ul>
+   </section>
+  </div>
+  </header>
+  <div class="flex justify-center items-center flex-col">
+  <h1 class="text-6xl font-bold flex justify-center items-center my-[100px] uppercase main_font">We are creatives</h1>
+  </div>
+  </section>
+
+  <section class="flex justify-center items-center w-full bg-white text-black flex-col lg:flex-row">
+    <div class="flex justify-around lg:items-start items-center flex-col w-full h-[350px] lg:w-[50%] lg:pl-[85px]">
+  <h2 class="text-3xl font-bold main_font text-center">Transform your brand</h2>
+
+  <p class="w-[75%] text-center lg:text-left">We are a full-service creative agency specializing in helping brands grow fast. 
+  Engage your clients through compelling visuals that do most of the marketing for you.</p>
+
+  <div class="uppercase flex justify-center items-center text-white w-[125px] h-[45px] bg-black">Learn more</div>
+    </div>
+    <div class="flex justify-around items-center flex-col w-full lg:w-[50%]">
+      <img src="images/desktop/pexels-fotios-photos-1161547.jpg" alt="transform">
+    </div>
+  </section>
+
+
+  <section  class="flex justify-center items-center w-full bg-white text-black flex-col-reverse lg:flex-row-reverse">
+  <div class="flex justify-around h-[325px] items-center lg:items-start flex-col w-full lg:w-[50%]  lg:pl-[85px]">
+  <h2  class="text-3xl font-bold main_font text-center">Stand out to the right audience</h2>
+
+  <p class="w-[75%] text-center lg:text-left">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+
+  <div class="uppercase flex justify-center items-center text-white w-[125px] h-[45px] bg-black">Learn more</div>
+  </div> 
+  <div class="flex justify-around items-center flex-col w-full lg:w-[50%]">
+    <img src="images/desktop/image-stand-out.jpg" alt="cup">
+  </div>
+  </section>
+
+  <section  class="flex justify-center items-center w-full flex-col lg:flex-row">
+    <div class="flex justify-end items-center bg-no-repeat bg-center bg-cover flex-col w-full lg:w-[50%] h-[550px] bg-[url('images/desktop/image-graphic-design.jpg')]">
+    <div class="w-[400px] h-[150px] flex flex-col justify-around items-center mb-[50px] text-white">
+    <h3 class="text-2xl font-bold main_font">Graphic design</h3>
+    <p class="text-center">
+  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+  </p>
+  </div>
+  </div>
+
+  <div class="flex justify-end items-center bg-no-repeat bg-center bg-cover flex-col w-full lg:w-[50%] h-[550px] bg-[url('images/desktop/image-photography.jpg')]">
+    <div class="w-[400px] h-[150px] flex flex-col justify-around items-center mb-[50px] text-white">
+  <h3 class="text-2xl font-bold main_font">Photography</h3>
+  <p class="text-center">
+  Increase your credibility by getting the most stunning, high-quality photos that improve your business image. 
+  </p>
+  </div>
+</div>
+  </section>
+
+
+
+
+  <section class="flex flex-col justify-around items-center w-full p-[100px]">
+  <h3 class="text-3xl uppercase my-[35px] lg:my-[75px] text-center">Client testimonials</h3>
+<div class="flex justify-between items-center flex-col lg:flex-row">
+
+  <div class="flex flex-col justify-around items-center w-full lg:w-[30%] h-[400px]">
+    <img class="rounded-full client" src="images/image-emily.jpg" alt="Emily R.">
+    <p class="text-center">
+      We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+    </p>
+    <div class="flex flex-col justify-around items-center">
+   <h4 class="font-bold text-[18px">Emily R.</h4>
+    <h5>Marketing Director</h5>
+  </div>
+  </div>
+
+  <div class="flex flex-col justify-around items-center  w-full lg:w-[30%] h-[400px]">
+    <img class="rounded-full client" src="images/image-thomas.jpg" alt="Thomas S.">
+    <p  class="text-center">
+      Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+    </p>
+    <div class="flex flex-col justify-around items-center">
+    <h4 class="font-bold text-[18px]">Thomas S.</h4>
+    <h5>Chief Operating Officer</h5>
+  </div>
+  </div>
+
+  <div class="flex flex-col justify-around items-center  w-full lg:w-[30%] h-[400px]">  
+    <img class="rounded-full client" src="images/image-jennie.jpg" alt="Jennie F.">
+    <p  class="text-center">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+    <div class="flex flex-col justify-around items-center">
+      <h4 class="font-bold text-[18px]">Jennie F.</h4>
+      <h5>Business Owner</h5>
+    </div>
+  </div>
+
+</div>
+  </section>
+
+  <section class="flex justify-center items-center">
+   <div class="w-[25%]"><img src="images/desktop/image-gallery-milkbottles.jpg" alt="milk"></div>
+   <div class="w-[25%]"><img src="images/desktop/image-gallery-orange.jpg" alt="orange"></div>
+   <div class="w-[25%]"><img src="images/desktop/image-gallery-cone.jpg" alt="cone"></div>
+   <div class="w-[25%]"><img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar"></div> 
+  </section>
+  
+  <footer class="flex flex-col justify-around items-center bg-[#8ED5C7] h-[250px] text-[#356E63]">
+    <h3 class="text-2xl font-bold">sunnyside</h3>
+    <!-- nav_menu -->
+    <ul class="flex w-[40%] lg:w-[20%] justify-around items-center">
+      <li class="text-sm">About</li>
+      <li class="text-sm">Services</li>
+      <li class="text-sm">Projects</li>
+    </ul>
+    <!-- socials icons -->
+    <ul class="flex w-[35%] lg:w-[15%] justify-around items-center">
+      <!-- for desktop -->
+      <li><img src="images/icon-facebook.svg" alt="facebook"></li>
+      <li><img src="images/icon-instagram.svg" alt="instagram"></li>
+      <li><img src="images/icon-twitter.svg" alt="twitter"></li>
+      <li><img src="images/icon-pinterest.svg" alt="pinterest"></li>
+    </ul>
+  </footer>
+
+</body>
+<script src="index.js">
+</script>
+</html>
